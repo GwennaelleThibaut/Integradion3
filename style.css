@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(255, 122, 122);
+  background-image: url(bg-intro-desktop.png);
+  font-family: "Poppins", sans-serif;
+  height: 100vh; /*Forcer le body à prendre toute la View Height*/
+  display: flex; /*Utiliser Flex*/
+  flex-direction: row;
+  justify-content: center; /*Center verticallement*/
+  align-items: center; /*Centrer horizontalement*/
+}
+
+.intro {
+  color: white;
+  font-size: 16px;
+  padding: 30px;
+  margin: 30px;
+  max-width: 400px;
+}
+
+.title {
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.text {
+  margin-top: 30px;
+}
+
+.explication {
+  color: white;
+  padding: 20px;
+  width: 400px;
+  margin: 15px;
+  background-color: rgb(96, 85, 165);
+  border-radius: 15px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.information {
+  padding: 20px;
+  margin: 15px;
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.input {
+  font-family: "Poppins", sans-serif;
+  border-radius: 10px;
+  width: 100%;
+  padding: 5px;
+  border: none;
+}
+
+#submit {
+  color: white;
+  padding: 5px;
+  margin: 5px;
+  background-color: rgb(56, 204, 140);
+}
+
+.terms {
+  color: rgb(185, 182, 211);
+  font-size: 12px;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 876px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+}
